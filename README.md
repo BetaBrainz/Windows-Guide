@@ -2,8 +2,22 @@
 My Personal Collection of stuff related to windows
 
 # Tools and Resources
+  * [Windows](#windows)
+  * [Correct logic for a windows system is](#correct-logic-for-a-windows-system-is)
+  * [Windows 10 (Same Applies to 11)](#windows-10-same-applies-to-11)
+    + [Downloading Windows](#downloading-windows)
+  * [Links](#links)
+  + [Installation](#installation)
+  + [Activating Windows](#activating-windows)
+  + [Installing drivers](#installing-drivers)
+  + [Debloating](#debloating)
+  * [Microsoft Office](#microsoft-office)
+  * [Other Microsoft or Windows related links](#other-microsoft-or-windows-related-links)
+  * [Other programs](#other-programs)
+  * [Reg Tweaks](#reg-tweaks)
+  - [Windows 11](#windows-11)
+  - [Miscellaneous Stuff](#-miscellaneous-stuff--)
 
-[TOC]
 ## Windows
 ## Correct logic for a windows system is
 - Use enterprise/edu and stay away from home/pro versions (ms basically uses home/pro versions to test KBs and shit on normal users, Ms gives much more fs about OEMs)
@@ -439,13 +453,14 @@ shutdown /l
 ```
 
 # ->Miscellaneous Stuff <-
-##Other programs
+## Other programs
 ![fwt infograph](https://s1.desu-usergeneratedcontent.xyz/g/image/1562/46/1562467997749.png)
 
-##What Size Keyboard Should i Choose?
+## What Size Keyboard Should i Choose?
 ![What Size Keyboard to Choose?](https://i.imgur.com/9NLMS8k.png)
 
-##Why is my disk size lower than expected?
+## Why is my disk size lower than expected?
+
 ***Manufacturers measure capacity in GB or TB whereas pretty much everything else measures it in GiB or TiB while often mislabeling it as GB or TB. The difference is that 1 KB = 1000B while 1 KiB = 1024B, 1MB = 1000000B while 1MiB = 1048576B etc. Based on this alone, 240GB = ~228.8GiB.***
 ***Filesystem overhead, any kind of filesystem will use some of the disk for its own internal bookkeeping, how much that is varies depending on the filesystem and blocksize used. For a typical NTFS@64k you could expect a few gigabytes lost on a 240GB drive.***
 ***As a bonus: ISPs and webhosts also measure things in base 10 while also using bits(b) instead of bytes(B). If an ISP promises you 100Mb/s download speed, that really means 100000000b /8 / 1024 / 1024 = 11.92MiB/s***
